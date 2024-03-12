@@ -1,12 +1,8 @@
 @Library('Jenkins_shared_library') _
-def COLOR_MAP = [
-    'FAILURE' : 'danger',
-    'SUCCESS' : 'good'
-    ]
+
     pipeline{
     agent any
-    parameters {
-        choice(name: 'action', choices: 'create\ndelete', description: 'Select create or destroy.')
+    
     }
     stages{
         stage('clean workspace'){
