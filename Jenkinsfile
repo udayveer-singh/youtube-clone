@@ -2,6 +2,7 @@
 def COLOR_MAP = [
     'FAILURE' : 'danger',
     'SUCCESS' : 'good'
+    ]
     pipeline{
     agent any
     parameters {
