@@ -15,7 +15,7 @@ def COLOR_MAP = [
         }
         stage('checkout from Git'){
             steps{
-                checkoutGit('', 'main')
+                checkoutGit('https://github.com/udayveer-singh/youtube-clone.git', 'main')
             }
         }
      }
